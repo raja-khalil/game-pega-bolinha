@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <!-- settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pega a Bolinha</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./SRC/Styles/resert.css">
+    <link rel="stylesheet" href="./SRC/Styles/main.css">
+</head>
+<body>
+    <main>
+        <nav>
+            <section class="time">
+                <h2 style="color: #eeff00;">Time Left</h2>
+                <h2  id="time-left">0</h2>
+            </section>
+            <section class="score">
+                <h2 style="color: #eeff00;">Your Score</h2>
+                <h2  id="score">0</h2>
+            </section>
+            <section class="lives">
+                <img src="./SRC/imagens/golden_emoji-removebg-preview.png" alt="Cão Golden" height= 60rem>
+                <h2>x3</h2>
+            </section>
+        </nav>
+        <section class="painel">
+            <div class="painel-row">
+                <div class="square" id="1"></div>
+                <div class="square ball" id="2"></div>
+                <div class="square" id="3"></div>
+            </div>
+          
+            <div class="painel-row">
+                <div class="square" id="4"></div>
+                <div class="square" id="5"></div>
+                <div class="square" id="6"></div>
+            </div>
+            
+            <div class="painel-row">
+                <div class="square" id="7"></div>
+                <div class="square" id="8"></div>
+                <div class="square" id="9"></div>
+            </div>
+
+        </section>
+    </main>
+
+    <script defer src="./SRC/Scripts/engine.js"></script>
+</body>
+</html>
